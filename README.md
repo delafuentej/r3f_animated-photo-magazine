@@ -4,6 +4,11 @@ An interactive 3D photo magazine built with **React Three Fiber**. This project 
 
 The theme is **"Segovia, World Heritage City"**, highlighting its monuments, architecture, and landscapes through high-resolution images.
 
+## 🌐 Live Demo
+
+Experience the 3D photo magazine online at:
+🔗 https://r3f-animated-photo-magazine.vercel.app/
+
 ---
 
 ## 📽️ Project Inspiration
@@ -25,6 +30,9 @@ It was adapted and customized to feature the city of Segovia, a UNESCO World Her
 - 🌆 **Immersive 3D Environment**  
   Built entirely in React Three Fiber for smooth, performant 3D rendering.
 
+- 🎨 **Responsive Styling**  
+   Styled with Tailwind CSS for clean, responsive, utility-first design.
+
 - 📷 **Curated Photography**  
   All images are sourced from Canva and the official [Turismo de Segovia website](https://www.turismodesegovia.com/), ensuring authenticity and high quality.
 
@@ -35,8 +43,11 @@ It was adapted and customized to feature the city of Segovia, a UNESCO World Her
 | Tool                                                        | Description                                          |
 | ----------------------------------------------------------- | ---------------------------------------------------- |
 | [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) | React renderer for Three.js                          |
+| [react-three-drei](https://github.com/pmndrs/drei)          | Helpers and abstractions for React Three Fiber       |
 | [Three.js](https://threejs.org/)                            | 3D JavaScript library for creating scenes and meshes |
 | [React](https://react.dev/)                                 | JavaScript library for building UI components        |
+| [Tailwind CSS](https://tailwindcss.com/)                    | Utility-first CSS framework for styling              |
+| [Jotai](https://jotai.org/)                                 | Primitive and flexible state management for React    |
 | [Vite](https://vitejs.dev/)                                 | Next-generation frontend tooling                     |
 | [Canva](https://www.canva.com/)                             | Source of some photos                                |
 | [Turismo de Segovia](https://www.turismodesegovia.com/)     | Source of cultural and historical images             |
