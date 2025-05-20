@@ -2,7 +2,7 @@
 
 An interactive 3D photo magazine built with **React Three Fiber**. This project showcases a dynamic, page-flipping experience inspired by traditional print magazines — brought to life with real-time 3D rendering.
 
-The theme is **"Segovia, World Heritage City"**, highlighting its monuments, architecture, and landscapes through high-resolution images.
+The theme is **"Segovia, World Heritage City"**, highlighting its monuments, architecture, and landscapes through images.
 
 ## 🌐 Live Demo
 
@@ -40,17 +40,18 @@ It was adapted and customized to feature the city of Segovia, a UNESCO World Her
 
 ## 🔧 Technologies Used
 
-| Tool                                                        | Description                                          |
-| ----------------------------------------------------------- | ---------------------------------------------------- |
-| [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) | React renderer for Three.js                          |
-| [react-three-drei](https://github.com/pmndrs/drei)          | Helpers and abstractions for React Three Fiber       |
-| [Three.js](https://threejs.org/)                            | 3D JavaScript library for creating scenes and meshes |
-| [React](https://react.dev/)                                 | JavaScript library for building UI components        |
-| [Tailwind CSS](https://tailwindcss.com/)                    | Utility-first CSS framework for styling              |
-| [Jotai](https://jotai.org/)                                 | Primitive and flexible state management for React    |
-| [Vite](https://vitejs.dev/)                                 | Next-generation frontend tooling                     |
-| [Canva](https://www.canva.com/)                             | Source of some photos                                |
-| [Turismo de Segovia](https://www.turismodesegovia.com/)     | Source of cultural and historical images             |
+| Tool                                                                 | Description                                          |
+| -------------------------------------------------------------------- | ---------------------------------------------------- |
+| [React Three Fiber](https://docs.pmnd.rs/react-three-fiber)          | React renderer for Three.js                          |
+| [react-three-drei](https://github.com/pmndrs/drei)                   | Helpers and abstractions for React Three Fiber       |
+| [Three.js](https://threejs.org/)                                     | 3D JavaScript library for creating scenes and meshes |
+| [React](https://react.dev/)                                          | JavaScript library for building UI components        |
+| [Tailwind CSS](https://tailwindcss.com/)                             | Utility-first CSS framework for styling              |
+| [Jotai](https://jotai.org/)                                          | Primitive and flexible state management for React    |
+| [Vite](https://vitejs.dev/)                                          | Next-generation frontend tooling                     |
+| [Canva](https://www.canva.com/)                                      | Source of some photos                                |
+| [Turismo de Segovia](https://segoviaturismo.es/)                     | Additional official image                            |
+| [Ayto.Segovia Image Gallery](https://segovia.es/galeria-de-imagenes) | Source of cultural and historical images source      |
 
 ---
 
