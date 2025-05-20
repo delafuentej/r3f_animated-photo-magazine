@@ -62,7 +62,6 @@ export const pictures = [
   "DSCCAT010",
   "DSCCAT011",
   "DSCCAT012",
-  "DSCCAT013",
   "DSCCAT014",
   "DSCCAT015",
   "DSCTJB002",
