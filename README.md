@@ -55,6 +55,16 @@ It was adapted and customized to feature the city of Segovia, a UNESCO World Her
 
 ---
 
+## Image Source
+
+| Source                                                               |
+| -------------------------------------------------------------------- |
+| [Canva](https://www.canva.com/)                                      |
+| [Turismo de Segovia](https://segoviaturismo.es/)                     |
+| [Ayto.Segovia Image Gallery](https://segovia.es/galeria-de-imagenes) |
+
+---
+
 ## 🚀 Getting Started
 
 ```bash
