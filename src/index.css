@@ -103,7 +103,7 @@ main,
 }
 
 /* 📱 Media query para móviles */
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .loading-screen {
     padding: 2rem;
   }
@@ -114,5 +114,16 @@ main,
 
   .progress__container {
     height: 0.75rem;
+  }
+  .pagination-btn {
+    padding: 2px 4px !important; /* menos padding */
+    font-size: 0.75rem !important; /* texto más pequeño */
+  }
+
+  .pagination-container {
+    margin-top: 1rem !important; /* menos espacio entre el texto y los botones */
+    gap: 4px !important; /* menos espacio entre botones */
+    flex-wrap: wrap; /* para que no se haga scroll horizontal */
+    justify-content: center;
   }
 }

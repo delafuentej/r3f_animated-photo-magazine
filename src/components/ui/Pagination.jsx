@@ -22,10 +22,10 @@ const Pagination = () => {
 
   return (
     <div className="w-full overflow-auto pointer-events-auto flex justify-center">
-      <div className="overflow-auto flex items-center gap-4 max-w-full p-10">
+      <div className="pagination-container overflow-auto flex items-center gap-4 max-w-fullp-4 sm:p-6 md:p-10">
         {/* Botón Cover */}
         <button
-          className={`border-transparent hover:border-white transition-all duration-300 px-4 py-3 rounded-full text-lg uppercase shrink-0 border ${
+          className={` pagination-btn border-transparent hover:border-white transition-all duration-300 px-3 sm:px-4 py-2 sm:py-3 rounded-full text-sm sm:text-base md:text-lg uppercase shrink-0 border ${
             page === 0
               ? "bg-skyBlue-300 text-black font-extrabold"
               : "bg-black/30 text-white font-extrabold"
@@ -40,14 +40,14 @@ const Pagination = () => {
           num === "..." ? (
             <span
               key={"dots-" + i}
-              className="px-4 py-3 text-white select-none"
+              className="px-3 sm:px-4 py-2 sm:py-3 text-white text-sm sm:text-base select-none"
             >
               ...
             </span>
           ) : (
             <button
               key={num}
-              className={`border-transparent hover:border-white transition-all duration-300 px-4 py-3 rounded-full text-lg uppercase shrink-0 border ${
+              className={`pagination-btn border-transparent hover:border-white transition-all duration-300 px-3 sm:px-4 py-2 sm:py-3 rounded-full text-sm sm:text-base md:text-lg uppercase shrink-0 border ${
                 page === num
                   ? "bg-skyBlue-300 text-black font-extrabold"
                   : "bg-black/30 text-white font-extrabold"
@@ -61,7 +61,7 @@ const Pagination = () => {
 
         {/* Botón Back Cover */}
         <button
-          className={`border-transparent hover:border-white transition-all duration-300 px-4 py-3 rounded-full text-lg uppercase shrink-0 border ${
+          className={`pagination-btn border-transparent hover:border-white transition-all duration-300 px-3 sm:px-4 py-2 sm:py-3 rounded-full text-sm sm:text-base md:text-lg uppercase shrink-0 border ${
             page === pages.length
               ? "bg-skyBlue-300 text-black font-extrabold"
               : "bg-black/30 text-white font-extrabold"

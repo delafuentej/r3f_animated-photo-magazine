@@ -6,7 +6,11 @@ const LoadingScreen = () => {
   return (
     <div className={`loading-screen ${active ? "" : "loading-screen--hidden"}`}>
       <div className="loading-screen__container">
-        <img src="/favicon.ico" alt="Logo" className="loading-screen__logo" />
+        <img
+          src="/images/segovia-logo.webp"
+          alt="Logo"
+          className="loading-screen__logo"
+        />
         <h1 className="loading-screen__title">Photo Magazine: </h1>
         <h4 className="loading-screen__title">Segovia, World Heiretage City</h4>
         <div className="progress__container">

@@ -7,10 +7,10 @@ export default {
     },
     extend: {
       fontSize: {
-        "10xl": "10rem",
-        "11xl": "11rem",
-        "12xl": "12rem",
-        "13xl": "13rem",
+        "10xl": "clamp(3rem, 5vw, 6rem)",
+        "11xl": "clamp(3.5rem, 6vw, 7rem)",
+        "12xl": "clamp(4rem, 7vw, 8rem)",
+        "13xl": "clamp(4.5rem, 8vw, 9rem)",
       },
       colors: {
         skyBlue: {
