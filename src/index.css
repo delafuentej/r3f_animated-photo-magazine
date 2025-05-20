@@ -31,7 +31,15 @@ body {
   opacity: 1;
   transition: opacity 0.5s ease;
 }
-
+.loading-screen__container {
+  /* Evita esto si es muy pesado */
+  padding: 1.3rem;
+  filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 20px white;
+  transition: all 2s ease;
+  transition: opacity 0.3s ease;
+}
 .loading-screen--hidden {
   animation: fade-out 0.5s ease-in-out forwards 1s;
 }

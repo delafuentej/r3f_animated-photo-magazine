@@ -1,8 +1,9 @@
-import { useEffect } from "react";
+import { useEffect, lazy } from "react";
 import { atom, useAtom } from "jotai";
 import { useProgress } from "@react-three/drei";
 import { generatePaginationNumbers } from "../../utils/generatePaginationNumbers";
 import Pagination from "./Pagination";
+
 import AnimatedTexts from "./AnimatedTexts";
 import { pages } from "../../data/pages";
 
