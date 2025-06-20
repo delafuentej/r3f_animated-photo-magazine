@@ -5,6 +5,7 @@ import { Suspense } from "react";
 import LoadingScreen from "./components/ui/LoadingScreen";
 import { Experience } from "./components/Experience";
 import { UI } from "./components/ui/UI";
+import Preloader from "./components/Preloader";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Canvas shadows camera={{ position: [-0.5, 1, 4], fov: 45 }}>
         <group position-y={0}>
           <Suspense fallback={null}>
+            <Preloader />
             <Experience />
           </Suspense>
         </group>
