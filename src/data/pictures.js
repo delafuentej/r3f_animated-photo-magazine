@@ -1,6 +1,5 @@
 export const pictures = [
   "DSCSEG008",
-  "DSCSEG025",
   "DSCSEG026",
   "DSCSEG024",
   "DSCSEG011",

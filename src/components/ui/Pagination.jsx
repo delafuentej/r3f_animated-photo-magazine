@@ -15,6 +15,22 @@ const Pagination = () => {
     ? generatePaginationNumbers(currentInnerPage, totalInnerPages)
     : [];
 
+  // const playPageSound = () => {
+  // const audio = new Audio("/audios/page-flip-01a.mp3");
+  // audio.volume = 0.5;
+
+  // audio.play().catch((error) => {
+  // console.warn("No se pudo reproducir el sonido:", error);
+  // });
+  // };
+
+  // const changePage = (newPage) => {
+  // if (newPage === page) return;
+
+  // playPageSound();
+  // setPage(newPage);
+  // };
+
   useEffect(() => {
     const audio = new Audio("/audios/page-flip-01a.mp3");
     audio.play();
@@ -56,7 +72,7 @@ const Pagination = () => {
             >
               {num}
             </button>
-          )
+          ),
         )}
 
         {/* Botón Back Cover */}

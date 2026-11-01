@@ -1,10 +1,12 @@
 import { Environment, OrbitControls, Float } from "@react-three/drei";
 import Book from "./Book";
+
+const studioHDRI = "/images/hdri/studio.hdr";
 export const Experience = () => {
   return (
     <>
       <OrbitControls />
-      <Environment preset="studio"></Environment>
+      <Environment files={studioHDRI} />
 
       {/* <Float
         rotation-x={-Math.PI / 4}

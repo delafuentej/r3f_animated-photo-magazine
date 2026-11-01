@@ -11,13 +11,13 @@ export const pageAtom = atom(0);
 
 export const UI = () => {
   const [page, setPage] = useAtom(pageAtom);
-  console.log("page", page);
+  // console.log("page", page);
 
   const { active } = useProgress();
 
   // total de páginas internas (sin cover ni back)
   const totalInnerPages = pages.length - 1;
-  console.log("totalInnerPages", totalInnerPages);
+  // console.log("totalInnerPages", totalInnerPages);
 
   // Página actual en términos de páginas internas
   // Si estamos en portada o contraportada, no mostrar paginación (o poner null)
@@ -27,7 +27,7 @@ export const UI = () => {
     ? generatePaginationNumbers(currentInnerPage, totalInnerPages)
     : [];
 
-  console.log("paginationNumbers", paginationNumbers);
+  // console.log("paginationNumbers", paginationNumbers);
 
   useEffect(() => {
     const audio = new Audio("/audios/page-flip-01a.mp3");
